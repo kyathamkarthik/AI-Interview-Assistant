@@ -1,15 +1,15 @@
 # 🎤 AI Multi-Modal Interview Assistant
 
-An AI-powered system that evaluates candidate interviews using **Speech Recognition, NLP, and Computer Vision**.
+An advanced AI system that evaluates candidate interview performance using **Speech Recognition, NLP, and Computer Vision**.
 
 ---
 
 ## 🚀 Features
 
-* 🎤 Speech-to-Text (Whisper AI)
-* 🧠 NLP Answer Evaluation (Sentence Transformers)
-* 👁️ Face Detection (OpenCV)
-* 📊 Candidate Scoring System
+* 🎤 Speech-to-Text using Whisper AI
+* 🧠 NLP-based Answer Evaluation
+* 👁️ Face Detection using OpenCV
+* 📊 Automated Candidate Scoring
 * 🔗 End-to-End AI Pipeline
 
 ---
@@ -18,7 +18,7 @@ An AI-powered system that evaluates candidate interviews using **Speech Recognit
 
 1. 🎥 Input interview video
 2. 🎤 Convert speech → text
-3. 🧠 Analyze answer using NLP
+3. 🧠 Analyze answer using NLP similarity
 4. 👁️ Detect face from image
 5. 📊 Generate final candidate score
 
@@ -51,29 +51,41 @@ AI-Interview-Assistant/
 ## ▶️ How to Run
 
 ```bash
-pip install -r requirements.txt
+pip install openai-whisper
+pip install sentence-transformers
+pip install scikit-learn
+pip install opencv-python
+
 py main.py
 ```
 
 ---
 
-## 📸 Demo Output
+## 📊 Demo Output (Real Run)
 
 Extracted Answer:
-"Machine learning allows computers to learn from data..."
+(Long interview response converted successfully using Whisper)
 
-Answer Score: 0.78
-Faces Detected: 1
-Final Candidate Score: 78
+Answer Score: **0.0129**
+Faces Detected: **1**
+Final Candidate Score: **1.29**
 
 ---
 
-## 💡 Future Improvements
+## 💡 Observations
 
-* Real-time webcam analysis
-* Emotion classification (happy, nervous, confident)
+* Long answers reduce similarity score
+* System works best with structured answers
+* Face detection confirms candidate presence
+
+---
+
+## 🔥 Future Improvements
+
+* Real-time webcam emotion detection
+* AI-based emotion classification (happy, nervous, confident)
 * Web app using Streamlit
-* Advanced LLM-based evaluation
+* LLM-based intelligent answer evaluation (GPT-like models)
 
 ---
 
