@@ -1,26 +1,26 @@
-# 🎤 AI Multi-Modal Interview Assistant
+#  AI Multi-Modal Interview Assistant
 
 An advanced AI system that evaluates candidate interview performance using **Speech Recognition, NLP, and Computer Vision**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 🎤 Speech-to-Text using Whisper AI
-* 🧠 NLP-based Answer Evaluation
-* 👁️ Face Detection using OpenCV
-* 📊 Automated Candidate Scoring
-* 🔗 End-to-End AI Pipeline
+*  Speech-to-Text using Whisper AI
+*  NLP-based Answer Evaluation
+*  Face Detection using OpenCV
+*  Automated Candidate Scoring
+*  End-to-End AI Pipeline
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
-1. 🎥 Input interview video
-2. 🎤 Convert speech → text
-3. 🧠 Analyze answer using NLP similarity
-4. 👁️ Detect face from image
-5. 📊 Generate final candidate score
+1.  Input interview video
+2.  Convert speech → text
+3.  Analyze answer using NLP similarity
+4.  Detect face from image
+5.  Generate final candidate score
 
 ---
 
@@ -35,7 +35,7 @@ An advanced AI system that evaluates candidate interview performance using **Spe
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 AI-Interview-Assistant/
 │
@@ -48,7 +48,7 @@ AI-Interview-Assistant/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 pip install openai-whisper
@@ -61,7 +61,7 @@ py main.py
 
 ---
 
-## 📊 Demo Output (Real Run)
+## Demo Output (Real Run)
 
 Extracted Answer:
 (Long interview response converted successfully using Whisper)
@@ -72,7 +72,7 @@ Final Candidate Score: **1.29**
 
 ---
 
-## 💡 Observations
+## Observations
 
 * Long answers reduce similarity score
 * System works best with structured answers
@@ -80,7 +80,7 @@ Final Candidate Score: **1.29**
 
 ---
 
-## 🔥 Future Improvements
+## Future Improvements
 
 * Real-time webcam emotion detection
 * AI-based emotion classification (happy, nervous, confident)
@@ -89,7 +89,7 @@ Final Candidate Score: **1.29**
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Karthik
-AI/ML Enthusiast | Future AI Engineer 🚀
+AI/ML Enthusiast | Future AI Engineer 
